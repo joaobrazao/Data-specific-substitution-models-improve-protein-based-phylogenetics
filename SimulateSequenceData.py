@@ -3,9 +3,8 @@
 desc="""Alignment data simulator. It generates several data sets in phylip format using a given model and tree.
 This script is derived from the 'Scripts for common tasks' of the P4 phyloinformatic toolkit (vers. 1.3; Foster, 2004; https://p4.nhm.ac.uk/scripts.html)
 
+João Brazão version 1
 """
-
-__author__='Joao Brazao'
 
 import os
 import re
@@ -78,10 +77,10 @@ if __name__ == "__main__":
             help="The amino-acid substitution model to use (it has to be available in P4). Or specify the rates (--rates) and composition (--compositions)."
             )
     parser.add_argument("-r","--rates",
-            help="Substitution rates matrix. All 189 parameters separated by space or comma. Eg. '0.05 0.89 0.33 ...'"
+            help="A vector with the 189 substitution rates. Eg. '0.05 0.89 0.33 ...'"
             )
     parser.add_argument("-c","--compositions",
-            help="Composition frequencies."
+            help="Composition frequencies vector."
             )
     parser.add_argument("-n", "--nex",
                         help="Save also in nexus format.",
