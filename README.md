@@ -1,2 +1,2 @@
-# Protein-based-phylogenetics-using-custom-models
-Data-specific substitution models improve protein-based phylogenetics
+# Data-specific-substitution-models-improve-protein-based-phylogenetics
+Custom scripts used in Data-specific substitution models improve protein-based phylogenetics
